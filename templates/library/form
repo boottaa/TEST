@@ -1,4 +1,0 @@
-{% macro form(name, action, method, name) %}<form name="{{ name|default('form') }}" action="{{ action|default('/') }}" method="{{ method|default('GET') }}">{% endmacro %}
-{% macro end() %}</form>{% endmacro %}
-{% macro input(name, type, value, size) %}<input type="{{ type|default('text') }}" name="{{ name }}" value="{{ value|e }}" size="{{ size|default(20) }}" />{% endmacro %}
-{% macro textarea(name, value, rows, cols) %}<textarea name="{{ name }}" rows="{{ rows|default(10) }}" cols="{{ cols|default(40) }}">{{ value|e }}</textarea>{% endmacro %}
