@@ -1,0 +1,12 @@
+{
+    "autoload": {
+        "classmap": [
+            "ABTT/"
+        ]
+    },
+    "require": {
+        "twig/twig": "~1.0",
+        "zendframework/zend-db": "~2.5",
+        "zendframework/zend-paginator": "~2.5"
+    }
+}
